@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial
+}
+.cabecalho{
+    background-color: #e6dbd5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px;
+
+}
+.menus{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+.banner{
+    background-color: #b5abf0;
+    width: 100%;
+    height: 350px;
+}
+.itensbanner img{
+    width: 620px;
+}
+.itensbanner h1{
+    color: #644eed;
+    font-size: 40px;
+}
+.itensbanner p{
+    color: #7D7A7A;
+
+}
+.itensbanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.containerbemvindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    text-align: justify;
+    gap: 100px;
+    background-color: #e6dbd5;
+}
+
+.texto1,
+.texto2{
+    width: 50%;
+    font-size: 20px;
+    color: #7D7A7A;
+}
+.texto1 h3{
+    color: #b5abf0;
+}
+.beneficios{
+    background-color: #e6dbd5;
+    text-align: center;
+    padding: 10px;
+}
+.container1 h4{
+    color: #644eed;
+    font-size: 30px;
+}
+.itens{
+    display: flex;
+    justify-content: space-around;
+}
+.itens img{
+    width: 100px;
+}
+.itens p{
+    color: #0c0c0c;
+}
+
+.rodape {
+    background-color: #b5abf0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.rodape img{
+    width: 80px;
+    align-self: flex-end;
+}
+.containerRodape{
+    text-align: center;
+}
+
+
+.cardc {
+    background-color: #cdb5ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px;
+}
+
+.cardc img {
+    height: 500px;
+    width: 550px;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    background-color: #cdb5ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px;
+    text-align: justify;
+}
+
+.card img {
+    height: 450px;
+    width: 500px;
+}
+.card1 {
+    background-color: #e6dbd5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card1 img {
+    height: 300px;
+    width: 227px;
+    align-items: normal;
+
+}
+
+.h3{
+    display: flex;
+    text-align: center;
+}
+
+.autor{
+    display: flex;
+    justify-content: center;
+
+}
